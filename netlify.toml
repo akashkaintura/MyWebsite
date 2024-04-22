@@ -1,0 +1,8 @@
+# netlify.toml
+
+[build]
+  functions = "functions"  # Specifies the directory where Netlify will look for serverless functions
+  publish = "public"        # Specifies the directory where Netlify will find static assets
+
+[build.environment]
+  NODE_VERSION = "14"       # Specifies the Node.js version to use for serverless function builds
