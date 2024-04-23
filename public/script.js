@@ -1,4 +1,3 @@
-// Function to change playlist
 function changePlaylist(playlistUrl) {
     var iframe = document.getElementById('spotifyPlaylist');
     iframe.src = "https://open.spotify.com/embed/playlist/" + playlistUrl;
@@ -9,17 +8,12 @@ function changePlaylist(playlistUrl) {
     event.target.classList.add('active');
 }
 
-// Add event listeners to each button
 document.getElementById('viral50Btn').addEventListener('click', function() {
     changePlaylist('37i9dQZEVXbK4NvPi6Sxit');
 });
 
 document.getElementById('top50GlobalBtn').addEventListener('click', function() {
     changePlaylist('37i9dQZEVXbMDoHDwVN2tF');
-});
-
-document.getElementById('subhBtn').addEventListener('click', function() {
-    changePlaylist('37i9dQZF1E4yiJGrYbYs2x');
 });
 
 
