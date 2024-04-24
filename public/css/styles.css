@@ -1,0 +1,95 @@
+/* Global styles */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f8f9fa; /* Light gray background */
+    color: #343a40; /* Dark text color */
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
+/* Header styles */
+.navbar {
+    background-color: #fff; /* White navbar background */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Navbar shadow */
+}
+
+.navbar-brand {
+    font-size: 1.5rem; /* Larger font size for brand name */
+}
+
+.nav-link {
+    color: #343a40 !important; /* Dark text color for nav links */
+    font-weight: bold;
+}
+
+/* Jumbotron styles */
+.jumbotron {
+    background-color: #007bff; /* Blue jumbotron background */
+    color: #fff; /* White text color */
+    padding: 100px 0; /* Vertical padding */
+    text-align: center;
+}
+
+.jumbotron h1 {
+    font-size: 3rem; /* Large font size for heading */
+}
+
+.jumbotron p {
+    font-size: 1.2rem; /* Medium font size for paragraph */
+}
+
+/* Section styles */
+.section {
+    padding: 80px 0; /* Vertical padding */
+    text-align: center;
+}
+
+.section h2 {
+    font-size: 2.5rem; /* Large font size for section headings */
+    margin-bottom: 30px; /* Bottom margin */
+}
+
+.section p {
+    font-size: 1.1rem; /* Medium font size for section paragraphs */
+}
+
+/* Footer styles */
+.footer {
+    background-color: #343a40; /* Dark footer background */
+    color: #fff; /* White text color */
+    padding: 30px 0; /* Vertical padding */
+    text-align: center;
+}
+
+.footer p {
+    margin: 0; /* Remove default margin */
+}
+
+/* Responsive styles */
+@media screen and (max-width: 768px) {
+    .navbar-brand {
+        font-size: 1.2rem; /* Smaller font size for brand name */
+    }
+
+    .jumbotron h1 {
+        font-size: 2.5rem; /* Reduce font size for smaller screens */
+    }
+
+    .jumbotron p {
+        font-size: 1rem; /* Reduce font size for smaller screens */
+    }
+
+    .section h2 {
+        font-size: 2rem; /* Reduce font size for smaller screens */
+    }
+
+    .section p {
+        font-size: 1rem; /* Reduce font size for smaller screens */
+    }
+}

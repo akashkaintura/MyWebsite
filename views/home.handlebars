@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title>
+    <link rel="stylesheet" href="../public/css/styles.css">
+</head>
+
+<body>
+    {{{include "header"}}}
+    <main>
+        <!-- Comedy section -->
+        <div class="jumbotron">
+            <div class="container">
+                <h2>Comedy</h2>
+                <p>Prepare to LOL with these hilarious tech jokes! 😂🤖</p>
+                <!-- Comedy jokes -->
+                <div class="jokes">
+                    <p>Why did the computer go to therapy?<br> Because it had too many bytes of emotional baggage! 🧠💼
+                    </p>
+                    <p>Why was the JavaScript developer sad?<br> Because he didn't know how to "null" his emotions! 😢💻
+                    </p>
+                    <p>Why do programmers prefer dark mode?<br> Because light attracts bugs! 🐛💡</p>
+                </div>
+            </div>
+        </div>
+
+        <!-- Music section -->
+        <div class="jumbotron">
+            <div class="container">
+                <h2>Music</h2>
+                <p>Get ready to groove with our tech-inspired music parodies and catchy tunes!</p>
+                <iframe id="spotifyPlaylist"
+                    src="https://open.spotify.com/embed/playlist/37i9dQZF1DX0XUfTFmNBRM?utm_source=generator"
+                    width="80%" height="180" frameborder="0" allowfullscreen=""
+                    allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"
+                    loading="lazy"></iframe>
+                <div class="playlist-buttons">
+                    <button id="viral50Btn">Viral 50</button>
+                    <button id="top50GlobalBtn">Top 50 Global</button>
+                </div>
+            </div>
+        </div>
+
+    </main>
+
+    {{include "footer"}}
+
+</body>
+
+</html>
